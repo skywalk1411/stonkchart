@@ -2,16 +2,6 @@
 
 stonkch.art is a nodejs webserver to display charts using tradingview widget api. Also have yahoo finance api mirror.
 
-# Install
-```npm install```
-
-```replace /public/favicon.ico with a valid .ico file before using```
-
-# Usage
-```npm run start```
-
-```open browser at http://localhost:port to see the chart```
-
 # Example url with parameters
 * http://stonkch.art/?s=BITMEX:XBTUSD
 * http://stonkch.art/?s=BITMEX:XBTUSD&i=30
@@ -19,8 +9,8 @@ stonkch.art is a nodejs webserver to display charts using tradingview widget api
 * http://stonkch.art/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD
 * http://stonkch.art/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI
 * http://stonkch.art/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
-* http://stonkch.art/l/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
 * http://stonkch.art/m/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
+* http://stonkch.art/l/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
 
 # Description
 * Routes
