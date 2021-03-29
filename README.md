@@ -1,4 +1,4 @@
-# http://stonkch.art - about
+# https://stonkch.art - about
 
 Welcome to stonkch.art,
 
