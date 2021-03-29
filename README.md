@@ -1,6 +1,7 @@
 # http://stonkch.art - about
 
 Welcome to stonkch.art,
+
  ~ is a popular charting terminal for the stock market, cryptocurrencies and more using TradingView data.
  
  ~ mission is to provide one simple but powerful interface to quickly display a chart on the screen. 
