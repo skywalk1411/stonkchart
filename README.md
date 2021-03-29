@@ -3,6 +3,7 @@
 stonkch.art is a nodejs webserver to display charts using tradingview widget api. Also have yahoo finance api mirror.
 
 # Example url with parameters
+* https://stonkch.art
 * https://stonkch.art/?wl=penny
 * or long format https://stonkch.art/?watchlist=penny
 * https://stonkch.art/?s=BITMEX:XBTUSD or http://stonkch.art/?s=NASDAQ:TSLA or ...
