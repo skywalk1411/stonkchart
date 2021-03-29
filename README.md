@@ -40,6 +40,7 @@ Route | Editable | Parameters | Afterhours | Draw | Bars | Details | Watchlist |
   * ?basics1=validStudies* or ?b1=validStudies*
   * ?basics2=validStudies* or ?b2=validStudies*
   * ?basics3=validStudies* or ?b3=validStudies*
+  * ?watchlist=validWatchlist* or ?wl=validWatchlist*
 
 
 * EXCHANGE:TICKER*
@@ -55,3 +56,6 @@ Route | Editable | Parameters | Afterhours | Draw | Bars | Details | Watchlist |
   (maximum 3 studies, basics1, basics2 and basics3 or b1, b2 and b3)
   
   ```ACCD, studyADR, AROON, ATR, AwesomeOscillator, BB, BollingerBandsR, BollingerBandsWidth, CMF, ChaikinOscillator, chandeMO, ChoppinessIndex, CCI, CRSI, CorrelationCoefficient, DetrendedPriceOscillator, DM, DONCH, DoubleEMA, EaseOfMovement, EFI, ENV, FisherTransform, HV, hullMA, IchimokuCloud, KLTNR, KST, LinearRegression, MACD, MOM, MF, MoonPhases, MASimple, MAExp, MAWeighted, OBV, PSAR, PivotPointsHighLow, PivotPointsStandard, PriceOsc, PriceVolumeTrend, ROC, RSI, VigorIndex, VolatilityIndex, SMIErgodicIndicator, SMIErgodicOscillator, Stochastic, StochasticRSI, TripleEMA, Trix, UltimateOsc, VSTOP, Volume, VWAP, MAVolumeWeighted, WilliamR, WilliamsAlligator, WilliamsFractal, ZigZag```
+
+* validWatchlist*
+  ```penny, ```
