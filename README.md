@@ -2,14 +2,23 @@
 
 Welcome to stonkch.art,
  ~ is a popular charting terminal for the stock market, cryptocurrencies and more using TradingView data.
+ 
  ~ mission is to provide one simple but powerful interface to quickly display a chart on the screen. 
+ 
  ~ also provide almost all tools supported on the TradingView platform.
+ 
  ~ take a strong and respectful stance on user privacy and security. We support Do Not Track settings.
+ 
  ~ may currently be sending analytics to a third party of TradingView, please refer to TradingView ToS.
+ 
  ~ traffic to our website and APIs is encrypted.
+ 
  ~ currently run using nodejs in backend using TradingView data.
+ 
  ~ has plans to move the platform to use tradingvue-js and vuejs and/or express in the future.
+ 
  ~ url is short and perfect to reference a certain chart quickly like bellow.
+ 
 
 # Example url with parameters
 * https://stonkch.art
