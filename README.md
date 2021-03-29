@@ -3,14 +3,20 @@
 stonkch.art is a nodejs webserver to display charts using tradingview widget api. Also have yahoo finance api mirror.
 
 # Example url with parameters
-* http://stonkch.art/?s=BITMEX:XBTUSD
+* http://stonkch.art/?s=BITMEX:XBTUSD or http://stonkch.art/?s=NASDAQ:TSLA or ...
+* or long format http://stonkch.art/?symbol=BITMEX:XBTUSD
 * http://stonkch.art/?s=BITMEX:XBTUSD&i=30
+* or long format  http://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30
 * http://stonkch.art/?s=BITMEX:XBTUSD&i=30&t=light
+* or long format  http://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30&theme=light
 * http://stonkch.art/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD
+* or long format  http://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30&theme=light&basics1=MACD
 * http://stonkch.art/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI
-* http://stonkch.art/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
+* or long format  http://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30&theme=light&basics1=MACD&basics2=RSI
 * http://stonkch.art/m/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
+* or long format  http://stonkch.art/min/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
 * http://stonkch.art/l/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
+* or long format  http://stonkch.art/lite/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
 
 # Description
 * Routes
