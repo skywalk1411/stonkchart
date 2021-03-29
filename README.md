@@ -1,6 +1,10 @@
-# http://stonkch.art - stonkch.art
+# http://stonkch.art - about
 
-stonkch.art is a nodejs webserver to display charts using tradingview widget api. Also have yahoo finance api mirror.
+Welcome to stonkch.art,
+ ~ is a popular charting terminal for the stock market, cryptocurrencies and more using TradingView data.
+ Our mission is to provide one simple but powerful interface to quickly display a chart on the screen. 
+ We also provide almost all tools supported on the TradingView platform.
+ Our url is short and perfect to reference a certain chart quickly like bellow.
 
 # Example url with parameters
 * https://stonkch.art
