@@ -46,6 +46,7 @@ Welcome to stonkch.art,
   * /
   * /min or /m
   * /lite or /l
+  * /old or /o (for old vintage chart powered by yahoo api).
   * /v1, /v7, v8, v10 (any valid yahoo finance api request).
 
 * Routes explanation
