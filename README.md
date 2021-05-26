@@ -27,6 +27,7 @@ Welcome to stonkch.art,
 * or long format https://stonkch.art/?watchlist=penny
 * https://stonkch.art/?s=BITMEX:XBTUSD or http://stonkch.art/?s=NASDAQ:TSLA or ...
 * or long format https://stonkch.art/?symbol=BITMEX:XBTUSD
+* or fast format https://stonkch.art/bitmex/xbtusd or https://stonkch.art/nasdaq/tsla
 * https://stonkch.art/?s=BITMEX:XBTUSD&i=30
 * or long format  https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30
 * https://stonkch.art/?s=BITMEX:XBTUSD&i=30&t=light
