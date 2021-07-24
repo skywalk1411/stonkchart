@@ -23,6 +23,9 @@ Welcome to stonkch.art,
 
 # Example url with parameters
 * https://stonkch.art
+* https://stonkch.art/exchange/symbol (ex: https://stonkch.art/nyse/amc , https://stonkch.art/binance/btcusdt , https://stonkch.art/nasdaq/tsla )
+* https://stonkch.art/min/exchange/symbol (ex: https://stonkch.art/min/nyse/amc , https://stonkch.art/min/binance/btcusdt , https://stonkch.art/min/nasdaq/tsla )
+* https://stonkch.art/lite/exchange/symbol (ex: https://stonkch.art/lite/nyse/amc , https://stonkch.art/lite/binance/btcusdt , https://stonkch.art/lite/nasdaq/tsla )
 * https://stonkch.art/?wl=penny
 * or long format https://stonkch.art/?watchlist=penny
 * https://stonkch.art/?s=BITMEX:XBTUSD or http://stonkch.art/?s=NASDAQ:TSLA or ...
@@ -46,6 +49,8 @@ Welcome to stonkch.art,
   * /
   * /min or /m
   * /lite or /l
+  * /exchange/symbol
+  * /exchange/symbol/exchange/symbol/...
   * /old or /o (for old vintage chart powered by yahoo api).
   * /v1, /v7, v8, v10 (any valid yahoo finance api request).
 
