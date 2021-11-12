@@ -22,25 +22,24 @@ Welcome to stonkch.art,
 
 # Example url with parameters
 * https://stonkch.art
-* https://stonkch.art/exchange/symbol (ex: https://stonkch.art/nyse/amc )
-* https://stonkch.art/m/exchange/symbol (ex: https://stonkch.art/m/nasdaq/tsla )
-  > or long format https://stonkch.art/min/exchange/symbol (ex: https://stonkch.art/min/nasdaq/tsla )
-* https://stonkch.art/l/exchange/symbol (ex:  https://stonkch.art/l/binance/btcusdt )
-  > or long format https://stonkch.art/lite/exchange/symbol (ex:  https://stonkch.art/lite/binance/btcusdt )
-* https://stonkch.art/?s=EXCHANGE:SYMBOL (ex: http://stonkch.art/?s=NASDAQ:TSLA )
-  > or long format https://stonkch.art/?symbol=BITMEX:XBTUSD
-* https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30
-  > or long format  https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30
-* https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30&t=light
-  > or long format  https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30&theme=light
-* https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30&t=light&b1=MACD
-  > or long format  https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30&theme=light&basics1=MACD
-* https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30&t=light&b1=MACD&b2=RSI
-  > or long format  https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30&theme=light&basics1=MACD&basics2=RSI
-* https://stonkch.art/m/?s=EXCHANGE:SYMBOL&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
-  > or long format  https://stonkch.art/min/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
-* https://stonkch.art/l/?s=EXCHANGE:SYMBOL&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
-  > or long format  https://stonkch.art/lite/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
+* stonkch.art/exchange/symbol (ex: https://stonkch.art/nyse/amc )
+* stonkch.art/m/exchange/symbol (ex: https://stonkch.art/m/nasdaq/tsla )
+  > or long format stonkch.art/min/exchange/symbol (ex: https://stonkch.art/min/nasdaq/tsla )
+* stonkch.art/l/exchange/symbol (ex:  https://stonkch.art/l/binance/btcusdt )
+  > or long format stonkch.art/lite/exchange/symbol (ex:  https://stonkch.art/lite/binance/btcusdt )
+* stonkch.art/?s=EXCHANGE:SYMBOL (ex: http://stonkch.art/?s=NASDAQ:TSLA )
+  > or long format stonkch.art/?symbol=EXCHANGE:SYMBOL (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD )
+* stonkch.art/?s=EXCHANGE:SYMBOL&i=60
+  > or long format stonkch.art/?symbol=EXCHANGE:SYMBOL&interval=60 (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=60 )
+* stonkch.art/?s=EXCHANGE:SYMBOL&i=30&t=light
+  > or long format stonkch.art/?symbol=EXCHANGE:SYMBOL&theme=light (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD&theme=light )
+* stonkch.art/?s=EXCHANGE:SYMBOL&b1=MACD
+  > or long format stonkch.art/?symbol=EXCHANGE:SYMBOL&basics1=MACD (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD&basics1=MACD )
+* stonkch.art/?s=EXCHANGE:SYMBOL&b1=MACD&b2=RSI
+  > or long format stonkch.art/?s=EXCHANGE:SYMBOL&basics1=MACD&basics2=RSI (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD&basics1=MACD&basics2=RSI )
+* stonkch.art/?s=EXCHANGE:SYMBOLb1=MACD&b2=RSI&b3=MASimple
+  > or long format stonkch.art/?s=EXCHANGE:SYMBOL&basics1=MACD&basics2=RSI&basics3=MASimple (ex: https://stonkch.art/?s=BITMEX:XBTUSD&basics1=MACD&basics2=RSI&basics3=MASimple )
+  
 
 # Description
 * Routes
