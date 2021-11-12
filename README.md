@@ -19,16 +19,6 @@ Welcome to stonkch.art,
  ~ has plans to move the platform to use tradingvue-js and vuejs in the future.
  
  ~ url is short and perfect to reference a certain chart quickly like bellow.
- 
-# Install
-```npm install```
-
-```replace /public/favicon.ico with a valid .ico file before using```
-
-# Usage
-```npm run start```
-
-```open browser at http://localhost:port to see the chart```
 
 # Example url with parameters
 * https://stonkch.art
