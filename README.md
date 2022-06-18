@@ -27,6 +27,8 @@ Welcome to stonkch.art,
   > or long format https://stonkch.art/min/exchange/symbol (ex: https://stonkch.art/min/nasdaq/tsla )
 * https://stonkch.art/l/exchange/symbol (ex:  https://stonkch.art/l/binance/btcusdt )
   > or long format https://stonkch.art/lite/exchange/symbol (ex:  https://stonkch.art/lite/binance/btcusdt )
+* https://stonkch.art/o/yahooSymbol (ex: https://stonkch.art/o/tsla )
+ > or long format https://stonkch.art/old/yahooSymbol (ex: https://stonkch.art/old/btc-usd , https://stonkch.art/old/^cmc200 , https://stonkch.art/old/gc=f )
 * https://stonkch.art/?s=EXCHANGE:SYMBOL (ex: http://stonkch.art/?s=NASDAQ:TSLA )
   > or long format https://stonkch.art/?symbol=BITMEX:XBTUSD
 * https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30
@@ -49,6 +51,7 @@ Welcome to stonkch.art,
   * /min or /m
   * /lite or /l
   * /img or /i
+  * /old or /o
   * /xdebug or /xd
   * /exchange/symbol
   * /exchange/symbol/exchange/symbol/... (@@@to do)
@@ -60,7 +63,7 @@ Welcome to stonkch.art,
   * / is main root webpage with all features.
   * /min is minimal chart minus the extra tools.
   * /lite is the most lightweight chart, uneditable with no tools.
-  * /old is a vintage google chart.
+  * /old is a vintage google chart with yahoo data.
   * /img is a small yahoo api powered png chart financial 400x400pixels image ~16kb.
   * /xdebug is the json img chart data for debuging chart.
   * /exchange/symbol is a quick way to load a specific exchange/symbol chart.
