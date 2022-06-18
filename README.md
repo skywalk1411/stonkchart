@@ -19,36 +19,50 @@ Welcome to stonkch.art,
  ~ has plans to move the platform to use tradingvue-js and vuejs in the future.
  
  ~ url is short and perfect to reference a certain chart quickly like bellow.
+ 
+# Install
+```npm install```
+
+```replace /public/favicon.ico with a valid .ico file before using```
+
+# Usage
+```npm run start```
+
+```open browser at http://localhost:port to see the chart```
 
 # Example url with parameters
 * https://stonkch.art
-* stonkch.art/exchange/symbol (ex: https://stonkch.art/nyse/amc )
-* stonkch.art/m/exchange/symbol (ex: https://stonkch.art/m/nasdaq/tsla )
-  > or long format stonkch.art/min/exchange/symbol (ex: https://stonkch.art/min/nasdaq/tsla )
-* stonkch.art/l/exchange/symbol (ex:  https://stonkch.art/l/binance/btcusdt )
-  > or long format stonkch.art/lite/exchange/symbol (ex:  https://stonkch.art/lite/binance/btcusdt )
-* stonkch.art/?s=EXCHANGE:SYMBOL (ex: http://stonkch.art/?s=NASDAQ:TSLA )
-  > or long format stonkch.art/?symbol=EXCHANGE:SYMBOL (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD )
-* stonkch.art/?s=EXCHANGE:SYMBOL&i=60
-  > or long format stonkch.art/?symbol=EXCHANGE:SYMBOL&interval=60 (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=60 )
-* stonkch.art/?s=EXCHANGE:SYMBOL&i=30&t=light
-  > or long format stonkch.art/?symbol=EXCHANGE:SYMBOL&theme=light (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD&theme=light )
-* stonkch.art/?s=EXCHANGE:SYMBOL&b1=MACD
-  > or long format stonkch.art/?symbol=EXCHANGE:SYMBOL&basics1=MACD (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD&basics1=MACD )
-* stonkch.art/?s=EXCHANGE:SYMBOL&b1=MACD&b2=RSI
-  > or long format stonkch.art/?s=EXCHANGE:SYMBOL&basics1=MACD&basics2=RSI (ex: https://stonkch.art/?symbol=BITMEX:XBTUSD&basics1=MACD&basics2=RSI )
-* stonkch.art/?s=EXCHANGE:SYMBOLb1=MACD&b2=RSI&b3=MASimple
-  > or long format stonkch.art/?s=EXCHANGE:SYMBOL&basics1=MACD&basics2=RSI&basics3=MASimple (ex: https://stonkch.art/?s=BITMEX:XBTUSD&basics1=MACD&basics2=RSI&basics3=MASimple )
-  
+* https://stonkch.art/exchange/symbol (ex: https://stonkch.art/nyse/amc )
+* https://stonkch.art/m/exchange/symbol (ex: https://stonkch.art/m/nasdaq/tsla )
+  > or long format https://stonkch.art/min/exchange/symbol (ex: https://stonkch.art/min/nasdaq/tsla )
+* https://stonkch.art/l/exchange/symbol (ex:  https://stonkch.art/l/binance/btcusdt )
+  > or long format https://stonkch.art/lite/exchange/symbol (ex:  https://stonkch.art/lite/binance/btcusdt )
+* https://stonkch.art/?s=EXCHANGE:SYMBOL (ex: http://stonkch.art/?s=NASDAQ:TSLA )
+  > or long format https://stonkch.art/?symbol=BITMEX:XBTUSD
+* https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30
+  > or long format  https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30
+* https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30&t=light
+  > or long format  https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30&theme=light
+* https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30&t=light&b1=MACD
+  > or long format  https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30&theme=light&basics1=MACD
+* https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30&t=light&b1=MACD&b2=RSI
+  > or long format  https://stonkch.art/?symbol=BITMEX:XBTUSD&interval=30&theme=light&basics1=MACD&basics2=RSI
+* https://stonkch.art/m/?s=EXCHANGE:SYMBOL&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
+  > or long format  https://stonkch.art/min/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
+* https://stonkch.art/l/?s=EXCHANGE:SYMBOL&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
+  > or long format  https://stonkch.art/lite/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
+* https://stonkch.art/i/tsla
 
 # Description
 * Routes
   * /
   * /min or /m
   * /lite or /l
+  * /img or /i
+  * /xdebug or /xd
   * /exchange/symbol
   * /exchange/symbol/exchange/symbol/... (@@@to do)
-  * /old or /o (for old vintage googlechart powered by yahoo api) (@@@to do)
+  * /old/symbol or /o/symbol (ex: https://stonkch.art/old/tsm (use yahoo symbols)) 
   * /rss2api/fullUrlToRss URIEncoded (ex: https://stonkch.art/rss2api/http%3A%2F%2Ffeeds.feedburner.com%2Fzerohedge%2Ffeed )
   * /api2api/fullUrlToApi URIEncoded (ex: https://stonkch.art/api2api/https%3A%2F%2Fquery2.finance.yahoo.com%2Fv7%2Ffinance%2Fquote%3Fformatted%3Dtrue%26crumb%3DJA3EgfRNNMR%26lang%3Den-US%26region%3DUS%26symbols%3Damc%2Cgme%2Cpltr%2Cnok%2Cbb%2Cbtc-usd%2Ceth-usd%2Cltc-usd%2Cdoge-usd%26fields%3Dsymbol%2CregularMarketPrice%26corsDomain%3Dfinance.yahoo.com )
 
@@ -56,6 +70,9 @@ Welcome to stonkch.art,
   * / is main root webpage with all features.
   * /min is minimal chart minus the extra tools.
   * /lite is the most lightweight chart, uneditable with no tools.
+  * /old is a vintage google chart.
+  * /img is a small yahoo api powered png chart financial 400x400pixels image ~16kb.
+  * /xdebug is the json img chart data for debuging chart.
   * /exchange/symbol is a quick way to load a specific exchange/symbol chart.
   * /rss2api is a rss to api mirror.
   * /api2api is a api to api mirror.
