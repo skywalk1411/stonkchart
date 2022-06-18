@@ -43,7 +43,8 @@ Welcome to stonkch.art,
   > or long format  https://stonkch.art/min/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
 * https://stonkch.art/l/?s=EXCHANGE:SYMBOL&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
   > or long format  https://stonkch.art/lite/?s=BITMEX:XBTUSD&i=30&t=light&b1=MACD&b2=RSI&b3=MASimple
-* https://stonkch.art/i/tsla
+* https://stonkch.art/i/yahooSymbol (ex: https://stonkch.art/i/tsla )
+  > or long format https://stonkch.art/img/yahooSymbol (ex: https://stonkch.art/img/tsla )
 
 # Description
 * Routes
