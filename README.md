@@ -28,7 +28,7 @@ Welcome to stonkch.art,
 * https://stonkch.art/l/exchange/symbol (ex:  https://stonkch.art/l/binance/btcusdt )
   > or long format https://stonkch.art/lite/exchange/symbol (ex:  https://stonkch.art/lite/binance/btcusdt )
 * https://stonkch.art/o/yahooSymbol (ex: https://stonkch.art/o/tsla )
- > or long format https://stonkch.art/old/yahooSymbol (ex: https://stonkch.art/old/btc-usd , https://stonkch.art/old/^cmc200 , https://stonkch.art/old/gc=f )
+  > or long format https://stonkch.art/old/yahooSymbol (ex: https://stonkch.art/old/btc-usd , https://stonkch.art/old/^cmc200 , https://stonkch.art/old/gc=f )
 * https://stonkch.art/?s=EXCHANGE:SYMBOL (ex: http://stonkch.art/?s=NASDAQ:TSLA )
   > or long format https://stonkch.art/?symbol=BITMEX:XBTUSD
 * https://stonkch.art/?s=EXCHANGE:SYMBOL&i=30
