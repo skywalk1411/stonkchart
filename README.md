@@ -71,7 +71,7 @@ Welcome to stonkch.art,
   * /rss2api is a rss to api mirror.
   * /api2api is a api to api mirror.
 
-* Charts
+# Charts
 
 Route | Editable | Parameters | Afterhours | Draw | Bars | Details | Watchlist | Calendar | Hotlists
 ----- | -------- | ---------- | ---------- | ---- | ---- | ------- | --------- | -------- | --------
@@ -134,16 +134,17 @@ Route | Editable | Parameters | Afterhours | Draw | Bars | Details | Watchlist |
   
    Default UTC is Etc/UTC.
    
-* Images
+# Images
 
    * Parameters
-   ?i=validImgIntervals
-   ?r=validImgRanges
-   ?w=validImgWidth
-   ?h=validImgHeight
-   ?pp=validImgPrePost
-   ?s=validImgSource **under construction**
    
+    * ?i=validImgIntervals
+    * ?r=validImgRanges
+    * ?w=validImgWidth
+    * ?h=validImgHeight
+    * ?pp=validImgPrePost
+    * ?s=validImgSource **under construction**
+ * Description
    * validImgIntervals
       ```1m, 2m, 5m, 15m, 30m, 60m, 1h, 1d, 5d, 1wk, 1mo, 3mo```
       
@@ -158,3 +159,6 @@ Route | Editable | Parameters | Afterhours | Draw | Bars | Details | Watchlist |
       
    * validImgPrePost
       ```true or false```
+
+ * Examples
+   https://stonkch.art/i/btc-usd?i=1m&r=1d&w=800&h=800
