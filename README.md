@@ -135,7 +135,8 @@ Route | Editable | Parameters | Afterhours | Draw | Bars | Details | Watchlist |
    Default UTC is Etc/UTC.
    
 # Images
-
+   Return an image from the sent request. https://stonkch.art/i/validYahooSymbol (ex: https://stonkch.art/i/tsla ). Will first verify if the symbol exist and use the first result return by Yahoo Api.
+   
    * Parameters
    
     * ?i=validImgIntervals
