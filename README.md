@@ -133,3 +133,28 @@ Route | Editable | Parameters | Afterhours | Draw | Bars | Details | Watchlist |
   ```Etc/UTC, exchange, UTC-10, UTC-8, UTC-7, UTC-7, UTC-7, UTC-6, UTC-6, UTC-6, UTC-5, UTC-5, UTC-5, UTC-4, UTC-4, UTC-4, UTC-3, UTC-3, UTC-3, UTC, UTC+1, UTC+1, UTC+1, UTC+1, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+2, UTC+3, UTC+3, UTC+3, UTC+3, UTC+3, UTC+3, UTC+3, UTC+3, UTC+3, UTC+3, UTC+3, UTC+3, UTC+4, UTC+4, UTC+4:30, UTC+5, UTC+5:30, UTC+6, UTC+7, UTC+7, UTC+7, UTC+8, UTC+8, UTC+8, UTC+8, UTC+8, UTC+8, UTC+9, UTC+9, UTC+10, UTC+10:30, UTC+11, UTC+11, UTC+12, UTC+12:45, UTC+13```
   
    Default UTC is Etc/UTC.
+   
+* Images
+
+   * Parameters
+   ?i=validImgIntervals
+   ?r=validImgRanges
+   ?w=validImgWidth
+   ?h=validImgHeight
+   ?pp=validImgPrePost
+   ?s=validImgSource **under construction**
+   
+   * validImgIntervals
+      ```1m, 2m, 5m, 15m, 30m, 60m, 1h, 1d, 5d, 1wk, 1mo, 3mo```
+      
+   * validImgRanges
+      ```15m, 30m, 60m, 90m, 1d, 2d, 3d, 5d, 1wk, 2wk, 3wk, 1mo, 3mo, 6mo, 1y, 2y, 10y, ytd, max```
+      
+   * validImgWidth
+      ```100 to 1000```
+   
+   * validImgHeight
+      ```100 to 1000```
+      
+   * validImgPrePost
+      ```true or false```
